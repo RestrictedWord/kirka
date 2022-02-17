@@ -1,14 +1,9 @@
 /* Paste Src Url Below */
 @font-face {
     font-family: gamefont;
-    src: url(./BF_Modernista-Regular.ttf)
-}
-
-@font-face {
-    font-family: headerfont;
-    src: url(./Altform-Bold.ttf)
+    src: url(https://github.com/RestrictedWord/kirka/raw/main/css/lore/client/fonts/BF_Modernista-Regular.ttf)
 }
 /* Size Fixing */
-#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-top > div.level > span{
+span.level-text{
     font-size: 20px !important;
 }
