@@ -1,0 +1,45 @@
+/* Animations */
+.clan-tag {
+    animation: glow 0.8s ease-in-out infinite alternate;
+}
+@keyframes loopPattern-data-v-50a88834 {
+    0% {
+        background-position: 0 0;
+   }
+    to {
+        background-position: 0 100vh;
+   }
+}
+@keyframes loopPattern-data-v-50a88834 {
+    0% {
+        background-position: 0 0;
+   }
+    to {
+        background-position: 0 100vh;
+   }
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 1px #000, 0 0 2px var(--primary-1), 0 0 30px var(--primary-1), 0 0 4px var(--primary-1), 0 0 5px var(--primary-1), 0 0 6px var(--primary-1), 0 0 7px var(--primary-1);
+   }
+    to {
+        text-shadow: 0 0 2px var(--primary-1), 0 0 3px var(--secondary-7), 0 0 4px var(--secondary-7), 0 0 5px var(--secondary-7), 0 0 6px var(--secondary-7), 0 0 7px var(--secondary-7), 0 0 8px var(--secondary-7);
+   }
+}
+#app > div.interface.text-2 > img {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+   }
+    65% {
+        transform: translate(0, 15px);
+   }
+    to {
+        transform: translate(0, -0px);
+   }
+}
