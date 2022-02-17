@@ -1,5 +1,6 @@
-@import url();
-@import url();
-@import url();
-@import url();
+
+@import url(https://raw.githack.com/RestrictedWord/kirka/main/css/lore/client/Root/index.css); /* Index */
+@import url(https://raw.githack.com/RestrictedWord/kirka/main/css/lore/client/Lobby/L-Interface.css); /* Lobby Interface */
+@import url(https://raw.githack.com/RestrictedWord/kirka/main/css/lore/client/Game/G-Interface.css); /* Game Interface */
+@import url(https://raw.githack.com/RestrictedWord/kirka/main/css/lore/client/Animations/Animations.css); /* Animations */
 @import url();
