@@ -22,7 +22,7 @@
     padding: 0.6rem !important;
     color: #ffffff;
     position: fixed;
-    top: 64.5rem;
+    top: 95%;
     left: 0rem;
     z-index: 10;
     pointer-events: auto;
@@ -136,6 +136,9 @@
     background-color: transparent !important;
     border: none !important;
     box-shadow: none !important;
+}
+#right-interface > div.settings-and-socicons > div:nth-child(1){
+    display: none !important;
 }
 .active, .tab:hover {
     text-decoration: underline;
