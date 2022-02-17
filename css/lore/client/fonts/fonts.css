@@ -1,7 +1,7 @@
 /* Paste Src Url Below */
 @font-face {
     font-family: gamefont;
-    src: url(https://github.com/RestrictedWord/kirka/raw/main/css/lore/client/fonts/BF_Modernista-Regular.ttf)
+    src: url(https://raw.githubusercontent.com/RestrictedWord/kirka/main/css/lore/client/fonts/BF_Modernista-Regular.ttf)
 }
 /* Size Fixing */
 span.level-text{
