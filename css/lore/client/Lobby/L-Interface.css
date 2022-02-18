@@ -18,7 +18,7 @@
 }
 #app > div.interface.text-2 > div.background > div.bg-radial::after {
     font-size: 1rem;
-    content: var(--credit);
+    content: "CSS by Word ";
     padding: 0.6rem !important;
     color: #ffffff;
     position: fixed;
@@ -40,7 +40,7 @@
     font-size: 1rem;
     text-align: left;
     white-space: pre;
-    content: var(--credit-hover);
+    content: "Nitro Boosters \A --------------- \A wxlruz#9576 \A y9mx#8088 \A Rebel#0005 \A HaHa#4475";
     backdrop-filter: blur(3px) !important;
     border-bottom: none !important;
     box-shadow: none !important;
@@ -65,6 +65,9 @@
 #app > div.interface.text-2 > img {
     content: var(--logo) !important;
 }
+body {
+    --pattern: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png);
+}
 /* Background */
 #app > div.interface.text-2 > div.background {
     background: var(--pattern) repeat;
@@ -73,7 +76,7 @@
     opacity: 1;
 }
 .pattern-bg {
-    background: url('') !important;
+    background: transparent !important;
     position: absolute !important;
     height: 45px !important;
     width: 105px !important;
@@ -81,8 +84,8 @@
     left: 0rem !important;
 }
 .pattern-bg::after {
-    content: "Change Log";
     font-size: 1rem;
+    content: "Change Log";
     text-decoration: underline;
     padding: 0.6rem !important;
     color: #ffffff;
@@ -93,18 +96,14 @@
     pointer-events: auto;
 }
 .pattern-bg:hover::after {
-    content: var(--change-log);
     text-decoration: none;
     text-align: left;
     white-space: pre;
-    overflow-y: scroll;
-    max-width: 300px;
-    text-overflow: ellipsis;
-    background: var(--background) !important;
+    content: "Change Log - Updated ~ \A ------------------------- \A - Test Test Test Test \A - Test Test Test Test \A - Test Test Test Test";
     width: auto;
-    height: 27%;
-    max-height: 400px;
-    top: 70%;
+    max-width: 350px;
+    height: 389px;
+    top: 88%;
 }
 ew > div > div > div.content > div > div > div.content > div.bottom > button {
     --top: transparent !important;
@@ -149,6 +148,14 @@ ew > div > div > div.content > div > div > div.content > div.bottom > button {
     background-color: var(--hover) !important;
     padding: 10px !important;
 }
+/* join Button #app > div.interface.text-2 > div.left-interface {
+    background-image: var(--join-button) !important;
+    background: no-repeat;
+    background-size: 10.48rem 2.25rem;
+    background-position: 7.1rem 9.84rem;
+    image-rendering: pixelated;
+}
+*/
 .add[data-v-197190ba]:hover {
     background-color: var(--primary-1);
 }
@@ -477,4 +484,48 @@ div.selected {
     background-image: linear-gradient(to left, transparent, #e24f4f2b);
     background-color: rgba(41, 41, 41, 0.34);
     border-radius: 0px !important;
+}
+/* Market */
+.hover-bg{
+    background: transparent !important;
+}
+.bottom-inv{
+    --top: transparent !important;
+    --bottom: transparent !important;
+    --hover-color: transparent !important;
+    font-size: 0px !important;
+    display: flex !important;
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/944125619095097414/plus-svg.svg) center 25% / 25% no-repeat !important;
+    background-color: transparent !important;
+    color: transparent !important;
+    transition: none !important;
+    box-shadow: none;
+    width: 25px !important;
+    height: 25px !important;
+    top: 20%;
+    left: 44%;
+    text-shadow: 0 0.1em 0 transparent !important;
+    -webkit-text-stroke: 1px transparent !important;
+}
+.bottom-inv:hover{
+    font-size: .6rem !important;
+    text-decoration: underline;
+    padding: 0.6rem !important;
+    color: #e24f4f !important;
+    width: 25px !important;
+    height: 25px !important;
+    top: 20% !important;
+    left: 40% !important;
+    z-index: 10 !important;
+    pointer-events: auto !important;
+}
+.subject{
+    overflow: hidden;
+}
+.subj-img{
+    pointer-events: auto !important;
+    z-index: 10 !important;
+}
+.subj-img:hover{
+    transform: scale(1.5);
 }
