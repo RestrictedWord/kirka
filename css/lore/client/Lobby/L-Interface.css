@@ -1,11 +1,11 @@
-#app > div.interface.text-2.fade-leave.fade-leave-active > div.searching-game > div.center{
-    background: linear-gradient(90.02deg,rgba(23,22,66,0) .02%,rgba(0, 0, 0, 0.75) 19.8%,rgba(0, 0, 0, 0.75) 81.76%,rgba(22,26,66,0) 99.98%);
+#app > div.interface.text-2.fade-leave.fade-leave-active > div.searching-game > div.center {
+    background: linear-gradient( 90.02deg, rgba(23, 22, 66, 0) 0.02%, rgba(0, 0, 0, 0.75) 19.8%, rgba(0, 0, 0, 0.75) 81.76%, rgba(22, 26, 66, 0) 99.98% );
 }
-#app > div.interface.text-2.fade-leave.fade-leave-active > div.searching-game > div.top{
-    background: linear-gradient(90.02deg,transparent .02%,#e24f4f 25.53%,#e24f4f 71.86%,transparent 99.98%);
+#app > div.interface.text-2.fade-leave.fade-leave-active > div.searching-game > div.top {
+    background: linear-gradient( 90.02deg, transparent 0.02%, #e24f4f 25.53%, #e24f4f 71.86%, transparent 99.98% );
 }
-#app > div.interface.text-2.fade-leave.fade-leave-active > div.searching-game > div.bottom{
-    background: linear-gradient(90.02deg,transparent .02%,#e24f4f 25.53%,#e24f4f 71.86%,transparent 99.98%);
+#app > div.interface.text-2.fade-leave.fade-leave-active > div.searching-game > div.bottom {
+    background: linear-gradient( 90.02deg, transparent 0.02%, #e24f4f 25.53%, #e24f4f 71.86%, transparent 99.98% );
 }
 /* Credit */
 #app > div.interface.text-2 > div.background > div.bg-radial {
@@ -65,18 +65,47 @@
 #app > div.interface.text-2 > img {
     content: var(--logo) !important;
 }
+body {
+    --pattern: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png);
+}
 /* Background */
 #app > div.interface.text-2 > div.background {
-    pointer-events: auto !important;
-    background: linear-gradient( 103.28deg, #000000 7.06%, #000000 90.75% ) !important;
-}
-#app > div.interface.text-2 > div.background > div.pattern-bg {
     background: var(--pattern) repeat;
     -webkit-animation: loopPattern-data-v-50a88 80s linear infinite;
     animation: loopPattern-data-v-50a88834 80s linear infinite;
     opacity: 1;
 }
-#view > div > div > div.content > div > div > div.content > div.bottom > button {
+.pattern-bg {
+    background: transparent !important;
+    position: absolute !important;
+    height: 45px !important;
+    width: 105px !important;
+    top: 64rem !important;
+    left: 0rem !important;
+}
+.pattern-bg::after {
+    font-size: 1rem;
+    content: "Change Log";
+    text-decoration: underline;
+    padding: 0.6rem !important;
+    color: #ffffff;
+    position: fixed;
+    top: 95%;
+    left: 10rem;
+    z-index: 10;
+    pointer-events: auto;
+}
+.pattern-bg:hover::after {
+    text-decoration: none;
+    text-align: left;
+    white-space: pre;
+    content: "Change Log - Updated ~ \A ------------------------- \A - Test Test Test Test \A - Test Test Test Test \A - Test Test Test Test";
+    width: auto;
+    max-width: 350px;
+    height: 389px;
+    top: 88%;
+}
+ew > div > div > div.content > div > div > div.content > div.bottom > button {
     --top: transparent !important;
     --bottom: transparent !important;
     --hover-color: transparent !important;
@@ -90,7 +119,7 @@
     transition: none;
     box-shadow: none;
 }
-#view > div > div > div.content > div > div.add-friends.text-2 > div.input > button{
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > button {
     --top: transparent !important;
     --bottom: transparent !important;
     --hover-color: transparent !important;
@@ -108,7 +137,7 @@
     transition: all 0.3s ease;
     right: 23px;
 }
-#view > div > div > div.content > div > div.add-friends.text-2 > div.input > button:hover{
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > button:hover {
     transform: scale(1.1) rotate(45deg);
 }
 #view > div > div > div.content > div > div > div.content > div.bottom > button:after, .button[data-v-02c36fca]:after {
@@ -128,16 +157,16 @@
 }
 */
 .add[data-v-197190ba]:hover {
-    background-color: var(--primary-1) 
+    background-color: var(--primary-1);
 }
 /* Hidden */
-#app > div.view > div > div > div.content > div > div.clans, #left-icons > div:nth-child(1) > div:nth-child(1), #left-icons > div:nth-child(1) > div:nth-child(2), #left-icons > div:nth-child(1) > div:nth-child(3), #left-icons > div:nth-child(1) > div:nth-child(4), #left-icons > div.icon-btn.text-1, #left-interface > div.moneys > div:nth-child(1), #left-interface > div.moneys > div:nth-child(2), .container, .close, .name-page, .home, #view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div > div.top-items, .active, .tab:hover, #play > div > div.play-content-up > div > div > hr, #view > div > div > div.content > div > div.avatar, div.gun, div.delete, #view > div > div > div.content > div > div.content > div.tabs.text-2, .active-tab, #view > div > div > div.content > div > div.add-friends.text-2{
+#app > div.view > div > div > div.content > div > div.clans, #left-icons > div:nth-child(1) > div:nth-child(1), #left-icons > div:nth-child(1) > div:nth-child(2), #left-icons > div:nth-child(1) > div:nth-child(3), #left-icons > div:nth-child(1) > div:nth-child(4), #left-icons > div.icon-btn.text-1, #left-interface > div.moneys > div:nth-child(1), #left-interface > div.moneys > div:nth-child(2), .container, .close, .name-page, .home, #view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div > div.top-items, .active, .tab:hover, #play > div > div.play-content-up > div > div > hr, #view > div > div > div.content > div > div.avatar, div.gun, div.delete, #view > div > div > div.content > div > div.content > div.tabs.text-2, .active-tab, #view > div > div > div.content > div > div.add-friends.text-2 {
     background: transparent !important;
     background-color: transparent !important;
     border: none !important;
     box-shadow: none !important;
 }
-#right-interface > div.settings-and-socicons > div:nth-child(1){
+#right-interface > div.settings-and-socicons > div:nth-child(1) {
     display: none !important;
 }
 .active, .tab:hover {
@@ -182,7 +211,7 @@
     display: none !important;
 }
 /* Cards */
-#auth-user > div > div.card-cont, #right-icons > div.card-cont.text-1.inventory-card, #right-icons > div.icon-btn.text-1, #view > div, #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile, #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d, #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress, #view > div > div > div.content > div > div > div.you > div > div.levels, #view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div, .lvl-leader, #view > div > div > div.content > div > div.clans > div.champions-container > div.champions-list, #left-interface::after, #right-interface > div.settings-and-socicons > div.card-cont.settings.card-1, #right-interface > div.live-streams, #view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit{
+#auth-user > div > div.card-cont, #right-icons > div.card-cont.text-1.inventory-card, #right-icons > div.icon-btn.text-1, #view > div, #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.card-profile, #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d, #view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress, #view > div > div > div.content > div > div > div.you > div > div.levels, #view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div, .lvl-leader, #view > div > div > div.content > div > div.clans > div.champions-container > div.champions-list, #left-interface::after, #right-interface > div.settings-and-socicons > div.card-cont.settings.card-1, #right-interface > div.live-streams, #view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit {
     backdrop-filter: blur(6px) !important;
     border-bottom: none !important;
     box-shadow: none !important;
@@ -196,7 +225,7 @@
     border: none !important;
     padding: 0.9rem;
 }
-#view > div > div > div.content > div > div.vm--container > div.vm--modal > div > div, #view > div > div > div.content > div > div.clans > div.my-clan > div.card-cont, #view > div > div > div.content > div > div.clans > div.my-clan > div.list-container, .background[data-v-040b7087]{
+#view > div > div > div.content > div > div.vm--container > div.vm--modal > div > div, #view > div > div > div.content > div > div.clans > div.my-clan > div.card-cont, #view > div > div > div.content > div > div.clans > div.my-clan > div.list-container, .background[data-v-040b7087] {
     backdrop-filter: blur(6px) !important;
     border-bottom: none !important;
     box-shadow: none !important;
@@ -244,7 +273,7 @@
     display: none;
 }
 /* Misc */
-#view > div > div > div.content > div > div.vm--container > div.vm--modal > div > div{
+#view > div > div > div.content > div > div.vm--container > div.vm--modal > div > div {
     display: flex;
     position: fixed;
     left: 400px;
@@ -256,7 +285,7 @@
     font-size: 1rem;
     width: 130px;
 }
-.level-cont{
+.level-cont {
     border: none !important;
     border-radius: 0px !important;
     background-color: var(--background) !important;
@@ -265,33 +294,33 @@
     background-size: 10px 10px !important;
     backdrop-filter: blur(3px) !important;
 }
-.friend, #view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input{
+.friend, #view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input {
     border-left-style: solid;
     border-color: var(--primary-1);
     background-image: linear-gradient(to left, transparent, #e24f4f2b);
     background-color: rgba(41, 41, 41, 0.34);
 }
-.friend{
+.friend {
     border: 0px !important;
 }
-#view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input{
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input {
     border-radius: 0px 50px 30px 0px !important;
 }
-#view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input{
-    max-width: 400px 
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input {
+    max-width: 400px;
 }
-div.selected{
+div.selected {
     background: var(--primary-1);
     top: -2px !important;
     right: -2px !important;
     box-shadow: 0px 0px 10px 5px var(--primary-1);
 }
-.reqs{
+.reqs {
     box-shadow: 0px 0px 10px 1px var(--primary-1);
     width: 10px !important;
     height: 10px !important;
 }
-#view > div > div > div.content > div > div.content > div.subjects{
+#view > div > div > div.content > div > div.content > div.subjects {
     backdrop-filter: blur(6px) !important;
     border-bottom: none !important;
     box-shadow: none !important;
@@ -305,7 +334,7 @@ div.selected{
     border: none !important;
     padding: 0.9rem;
 }
-.subject{
+.subject {
     backdrop-filter: blur(6px) !important;
     border-bottom: none !important;
     box-shadow: none !important;
@@ -319,7 +348,7 @@ div.selected{
     border: none !important;
     padding: 0.9rem;
 }
-#play > button{
+#play > button {
     position: fixed !important;
     right: 1px !important;
     left: 121px !important;
@@ -336,10 +365,10 @@ div.selected{
     border-radius: 0px !important;
     transition: background 0.3s ease;
     border: none !important;
-    padding: .6rem !important;
+    padding: 0.6rem !important;
 }
-#play > button:hover{
-    color: var(--primary-1) !important 
+#play > button:hover {
+    color: var(--primary-1) !important;
 }
 .custom-checkbox > span[data-v-47e1b746]:before {
     border: none !important;
@@ -404,13 +433,13 @@ div.selected{
     background: #ffffff0f !important;
     padding: 5px;
 }
-.close-icon{
+.close-icon {
     width: 1.5rem !important;
-    height: 1.5rem !important 
+    height: 1.5rem !important;
 }
-.close-icon:hover{
+.close-icon:hover {
     width: 1.8rem !important;
-    height: 1.8rem !important 
+    height: 1.8rem !important;
 }
 #view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div, #view > div > div > div.top-bar {
     border: none;
