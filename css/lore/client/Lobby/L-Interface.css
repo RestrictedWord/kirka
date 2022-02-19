@@ -96,14 +96,18 @@ body {
     pointer-events: auto;
 }
 .pattern-bg:hover::after {
+    content: var(--change-log);
     text-decoration: none;
     text-align: left;
     white-space: pre;
-    content: "Change Log - Updated ~ \A ------------------------- \A - Test Test Test Test \A - Test Test Test Test \A - Test Test Test Test";
+    overflow-y: scroll;
+    max-width: 300px;
+    text-overflow: ellipsis;
+    background: var(--background) !important;
     width: auto;
-    max-width: 350px;
-    height: 389px;
-    top: 88%;
+    height: 27%;
+    max-height: 400px;
+    top: 70%;
 }
 ew > div > div > div.content > div > div > div.content > div.bottom > button {
     --top: transparent !important;
