@@ -75,40 +75,6 @@ body {
     animation: loopPattern-data-v-50a88834 80s linear infinite;
     opacity: 1;
 }
-.pattern-bg {
-    background: transparent !important;
-    position: absolute !important;
-    height: 45px !important;
-    width: 105px !important;
-    top: 64rem !important;
-    left: 0rem !important;
-}
-.pattern-bg::after {
-    font-size: 1rem;
-    content: "Change Log";
-    text-decoration: underline;
-    padding: 0.6rem !important;
-    color: #ffffff;
-    position: fixed;
-    top: 95%;
-    left: 10rem;
-    z-index: 10;
-    pointer-events: auto;
-}
-.pattern-bg:hover::after {
-    content: var(--change-log);
-    text-decoration: none;
-    text-align: left;
-    white-space: pre;
-    overflow-y: scroll;
-    max-width: 300px;
-    text-overflow: ellipsis;
-    background: var(--background) !important;
-    width: auto;
-    height: 27%;
-    max-height: 400px;
-    top: 70%;
-}
 ew > div > div > div.content > div > div > div.content > div.bottom > button {
     --top: transparent !important;
     --bottom: transparent !important;
