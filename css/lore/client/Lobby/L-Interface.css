@@ -489,7 +489,7 @@ div.selected {
 .hover-bg{
     background: transparent !important;
 }
-.bottom-inv{
+.bottom-inv[data-v-4f2bd40f]{
     --top: transparent !important;
     --bottom: transparent !important;
     --hover-color: transparent !important;
@@ -528,4 +528,16 @@ div.selected {
 }
 .subj-img:hover{
     transform: scale(1.5);
+}
+.rar-skin{
+    width: 0.60rem !important;
+}
+.item-name{
+    padding-left: 4%;
+}
+.filters{
+    justify-content: start !important;
+}
+.filter-rarity{
+    padding-left: 10px;
 }
