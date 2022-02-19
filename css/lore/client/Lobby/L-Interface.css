@@ -128,8 +128,7 @@ ew > div > div > div.content > div > div > div.content > div.bottom > button {
     border: none !important;
     box-shadow: none !important;
 }
-#right-interface > div.settings-and-socicons > div:nth-child(1),
-#view > div > div > div.content > div > div.tabs > div:nth-child(3) > div{
+#right-interface > div.settings-and-socicons > div:nth-child(1), #view > div > div > div.content > div > div.tabs > div:nth-child(3) > div {
     display: none !important;
 }
 .active, .tab:hover {
@@ -404,7 +403,7 @@ div.selected {
     width: 1.8rem !important;
     height: 1.8rem !important;
 }
-#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div, #view > div > div > div.top-bar, #view > div > div > div.content > div > div.inventory > div > div.filters > div.filter-rarity > label > div, #view > div > div > div.content > div > div.inventory > div > div.filters > div.filter-name > label > input{
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div, #view > div > div > div.top-bar, #view > div > div > div.content > div > div.inventory > div > div.filters > div.filter-rarity > label > div, #view > div > div > div.content > div > div.inventory > div > div.filters > div.filter-name > label > input {
     border: none;
     border-radius: 0px !important;
     box-shadow: none;
@@ -448,11 +447,23 @@ div.selected {
     background-color: rgba(41, 41, 41, 0.34);
     border-radius: 0px !important;
 }
+#right-interface::after{
+    content: "Recommended Res: 1920x1080";
+    position: fixed;
+    font-size: .8rem;
+    font-family: Exo\ 2;
+    color: #ffffff26;
+    padding: 0.6rem !important;
+    top: 40%;
+    right: 43%;
+    text-shadow: 0 0.1em 0 transparent !important;
+    -webkit-text-stroke: 1px transparent !important;
+}
 /* Market */
-.hover-bg{
+.hover-bg {
     background: transparent !important;
 }
-.bottom-inv[data-v-4f2bd40f]{
+.bottom-inv[data-v-4f2bd40f] {
     --top: transparent !important;
     --bottom: transparent !important;
     --hover-color: transparent !important;
@@ -470,7 +481,7 @@ div.selected {
     text-shadow: 0 0.1em 0 transparent !important;
     -webkit-text-stroke: 1px transparent !important;
 }
-.bottom-inv:hover{
+.bottom-inv:hover {
     font-size: .6rem !important;
     text-decoration: underline;
     padding: 0.6rem !important;
@@ -482,30 +493,30 @@ div.selected {
     z-index: 10 !important;
     pointer-events: auto !important;
 }
-.subject{
+.subject {
     overflow: hidden;
 }
-.subj-img{
+.subj-img {
     pointer-events: auto !important;
     z-index: 10 !important;
 }
-.subj-img:hover{
+.subj-img:hover {
     transform: scale(1.5);
 }
-.rar-skin{
+.rar-skin {
     width: 0.60rem !important;
 }
-.item-name{
+.item-name {
     padding-left: 4%;
 }
-.filters{
+.filters {
     justify-content: start !important;
 }
-.filter-rarity{
+.filter-rarity {
     padding-left: 10px;
 }
 /* Clans */
-.reset-time{
+.reset-time {
     position: fixed !important;
     top: 21% !important;
     right: 68% !important;
