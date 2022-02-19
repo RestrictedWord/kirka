@@ -148,14 +148,6 @@ ew > div > div > div.content > div > div > div.content > div.bottom > button {
     background-color: var(--hover) !important;
     padding: 10px !important;
 }
-/* join Button #app > div.interface.text-2 > div.left-interface {
-    background-image: var(--join-button) !important;
-    background: no-repeat;
-    background-size: 10.48rem 2.25rem;
-    background-position: 7.1rem 9.84rem;
-    image-rendering: pixelated;
-}
-*/
 .add[data-v-197190ba]:hover {
     background-color: var(--primary-1);
 }
@@ -166,7 +158,8 @@ ew > div > div > div.content > div > div > div.content > div.bottom > button {
     border: none !important;
     box-shadow: none !important;
 }
-#right-interface > div.settings-and-socicons > div:nth-child(1) {
+#right-interface > div.settings-and-socicons > div:nth-child(1),
+#view > div > div > div.content > div > div.tabs > div:nth-child(3) > div{
     display: none !important;
 }
 .active, .tab:hover {
@@ -441,7 +434,7 @@ div.selected {
     width: 1.8rem !important;
     height: 1.8rem !important;
 }
-#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div, #view > div > div > div.top-bar {
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div, #view > div > div > div.top-bar, #view > div > div > div.content > div > div.inventory > div > div.filters > div.filter-rarity > label > div, #view > div > div > div.content > div > div.inventory > div > div.filters > div.filter-name > label > input{
     border: none;
     border-radius: 0px !important;
     box-shadow: none;
@@ -540,4 +533,12 @@ div.selected {
 }
 .filter-rarity{
     padding-left: 10px;
+}
+/* Clans */
+.reset-time{
+    position: fixed !important;
+    top: 21% !important;
+    right: 68% !important;
+    background: transparent !important;
+    box-shadow: none !important;
 }
