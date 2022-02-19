@@ -1,10 +1,10 @@
 body{
     /* Content */
-    --change-log: var(--header) var(--section) var(--1) var(--2) var(--3) var(--4) var(--5) var(--6) var(--7) var(--8) var(--9) var(--10) var(--11) var(--12) var(--13) var(--14) var(--15) var(--16) var(--17) var(--18) var(--19) var(--20);
+    --change-log: var(--header) var(--space) var(--1) var(--2) var(--3) var(--4) var(--5) var(--6) var(--7) var(--8) var(--9) var(--10) var(--11) var(--12) var(--13) var(--14) var(--15) var(--16) var(--17) var(--18) var(--19) var(--20);
 
     /* Change-Log Lines */
-    --header: "Change Log - Updated ~ ";
-    --section: "\A ------------------------- ";
+    --header: "Change Log - Updated: 2/19/22 - Verison: 0.0.1";
+    --space: "\A";
     --1: "\A - Test Test Test Test ";
     --2: "\A - Test Test Test Test ";
     --3: "\A - Test Test Test Test ";
@@ -53,11 +53,12 @@ body{
     text-align: left;
     white-space: pre;
     overflow-y: scroll;
-    max-width: 300px;
     text-overflow: ellipsis;
     background: var(--background) !important;
+    border: 2px solid #d4d4d42b;
     width: auto;
-    height: 27%;
-    max-height: 400px;
-    top: 70%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    top: 57%;
 }
