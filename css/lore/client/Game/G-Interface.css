@@ -327,27 +327,3 @@
     border: none !important;
     border-radius: 0px !important;
   }
-  /* Leaderboard */
-.tab-info {
-  display: flex !important;
-  margin-right: 70%;
-  margin-bottom: 48%;
-  background: transparent !important;
-  box-shadow: none !important;
-}
-
-#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.head.text-2,
-#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div.player-list > div > div.player-left > div.short-id{
-  display: none !important;
-}
-
-#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div.list {
-  background-color: var(--background-dark) !important;
-  padding: 1%;
-  width: 80% !important;
-}
-#app > div.game-interface > div.desktop-game-interface > div.tab-info > div.players > div.player-list > div{
-  width: 80% !important;
-  background-color: var(--background-dark) !important;
-  border-radius: 0px !important;
-}
