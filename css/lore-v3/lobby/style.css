@@ -1,0 +1,126 @@
+/* Colors */
+:root {
+    /* Accent Colors */
+    --accent: #b60a34;
+    --accent-2nd: #ed3332;
+    /* Hover Colors */
+    --hover-border: white;
+    --hover-text: #ffffffcf;
+    --hover-border-0: #ffffff24;
+    --hover-bg: #ffffff1a;
+    /* Background Colors */
+    --background: hsla(0, 0%, 16%, 0.25);
+}
+
+/* Sizes */
+:root{
+    --corner: 12px;
+    --border-size: 1px;
+    --bg-size: 10px;
+    --letter-sp: 0.5px;
+    --pad-0: 0.5rem;
+    --pad-1: 0.9rem;
+
+}
+/* Filters */
+:root{
+    --blur: blur(3px);
+}
+/* Img */
+:root{
+    --pattern: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png);
+}
+
+/* Misc */
+:root{
+    --none: none;
+    --zero-px: 0px;
+    --transparent: transparent;
+    --no-repeat: no-repeat;
+}
+
+/* Corners */
+:root{
+    --corners: linear-gradient( to right, var(--accent-2nd) 1.8px, transparent 1.8px ) 0 100%, linear-gradient(to left, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 0 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to right, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to left, var(--accent-2nd) 0px, transparent 0px) 100% 0, linear-gradient(to bottom, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to bottom, var(--accent-2nd) 0px, transparent 0px) 100% 0;
+    --corners-full: linear-gradient( to right, var(--accent-2nd) 1.8px, transparent 1.8px ) 0 100%, linear-gradient(to left, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 0 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to right, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to left, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 0, linear-gradient(to bottom, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to bottom, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 0;
+    --corners-hover: linear-gradient( to right, var(--accent-hover) 1.8px, transparent 1.8px ) 0 100%, linear-gradient(to left, var(--accent-hover) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to top, var(--accent-hover) 1.8px, transparent 1.8px) 0 100%, linear-gradient(to top, var(--accent-hover) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to right, var(--accent-hover) 1.8px, transparent 1.8px) 0 0, linear-gradient(to left, var(--accent-hover) 0px, transparent 0px) 100% 0, linear-gradient(to bottom, var(--accent-hover) 1.8px, transparent 1.8px) 0 0, linear-gradient(to bottom, var(--accent-hover) 0px, transparent 0px) 100% 0;
+
+}
+/* ------- */
+*{
+    text-shadow: var(--none) !important;
+    border-radius: var(--zero-px) !important;
+}
+/* Letter Spacing */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card,
+#app>div.interface.text-2>div.vm--container>div.vm--modal>div>div{
+    letter-spacing: var(--letter-sp);
+}
+/* Backgrounds */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card,
+#auth-user>div>div>button,
+#auth-user>div, #app>div.interface.text-2>div.vm--container>div.vm--modal>div>div,
+#auth-user>div>div.card-cont.user-info>div.progress-lvl>div.progress-line{
+    background-color: var(--background) !important;
+}
+#auth-user > div > div > button:hover{
+    background: var(--hover-bg);
+}
+        /* Bg Corners */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card{
+    background: var(--corners);
+}
+        /* Bg Repeat */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card{
+    background-repeat: var(--no-repeat) !important;
+}
+        /* Bg size */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card{
+    background-size: var(--bg-size) var(--bg-size) !important;
+}
+        /* Bg Transitions */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card{
+    transition: background 0.8s ease;
+}
+/* Padding */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card{
+    padding: var(--pad-1);
+}
+/* Borders */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card{
+    border-top: var(--border-size) solid var(--accent) !important;
+    border-bottom: var(--border-size) solid var(--accent) !important;
+    border-left: var(--border-size) solid var(--accent) !important;
+    border-right: var(--border-size) solid var(--accent) !important;
+}
+.auth-form:before, #left-icons:before{
+    border-top: 10px solid var(--accent);
+    border-left: 10px solid transparent;
+}
+/* Margins */
+.auth-form{
+    margin: var(--none) !important;
+}
+/* Shadow */
+
+
+/* Clip */
+.wrapper:hover,
+#auth-user>div>div.card-cont.user-info:hover,
+#auth-user>div>div.card-cont.avatar-info:hover{
+    clip-path: polygon( 0 0, calc(100% - var(--corner)) 0%, 100% var(--corner), 100% 100%, var(--corner) 100%, 0 calc(100% - var(--corner)) );
+}
+/* Misc */
+.moneys, #left-icons,
+#right-icons>div.card-cont.text-1.inventory-card,
+#auth-user>div, #app>div.interface.text-2>div.vm--container>div.vm--modal>div>div{
+    backdrop-filter: var(--blur);
+}
