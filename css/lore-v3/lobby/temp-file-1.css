@@ -1,0 +1,40 @@
+/* Left Icons */
+#left-icons {
+    position: absolute;
+    top: 9.1rem;
+    left: 0;
+    padding-bottom: 3rem;
+}
+#left-icons:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+}
+.icon-btn {
+    height: 20px !important;
+}
+.icon-btn:hover > .wrapper {
+    transform: translateY(-0px) !important;
+}
+.wrapper:hover {
+    background: var(--hover-bg);
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+}
+.wrapper:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.wrapper:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
