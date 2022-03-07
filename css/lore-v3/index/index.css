@@ -1,0 +1,48 @@
+/* Colors */
+:root {
+    /* Accent Colors */
+    --accent: #b60a34;
+    --accent-2nd: #ed3332;
+    /* Hover Colors */
+    --hover-border: white;
+    --hover-text: #ffffffcf;
+    --hover-border-0: #ffffff24;
+    --hover-bg: #ffffff1a;
+    /* Background Colors */
+    --background: hsla(0, 0%, 16%, 0.25);
+}
+
+/* Sizes */
+:root{
+    --corner: 12px;
+    --border-size: 1px;
+    --bg-size: 10px;
+    --letter-sp: 0.5px;
+    --pad-0: 0.5rem;
+    --pad-1: 0.9rem;
+
+}
+/* Filters */
+:root{
+    --blur: blur(3px);
+}
+/* Img */
+:root{
+    --pattern: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png);
+}
+
+/* Misc */
+:root{
+    --none: none;
+    --zero-px: 0px;
+    --transparent: transparent;
+    --no-repeat: no-repeat;
+}
+
+/* Corners */
+:root{
+    --corners: linear-gradient( to right, var(--accent-2nd) 1.8px, transparent 1.8px ) 0 100%, linear-gradient(to left, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 0 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to right, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to left, var(--accent-2nd) 0px, transparent 0px) 100% 0, linear-gradient(to bottom, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to bottom, var(--accent-2nd) 0px, transparent 0px) 100% 0;
+    --corners-full: linear-gradient( to right, var(--accent-2nd) 1.8px, transparent 1.8px ) 0 100%, linear-gradient(to left, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 0 100%, linear-gradient(to top, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to right, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to left, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 0, linear-gradient(to bottom, var(--accent-2nd) 1.8px, transparent 1.8px) 0 0, linear-gradient(to bottom, var(--accent-2nd) 1.8px, transparent 1.8px) 100% 0;
+    --corners-hover: linear-gradient( to right, var(--accent-hover) 1.8px, transparent 1.8px ) 0 100%, linear-gradient(to left, var(--accent-hover) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to top, var(--accent-hover) 1.8px, transparent 1.8px) 0 100%, linear-gradient(to top, var(--accent-hover) 1.8px, transparent 1.8px) 100% 100%, linear-gradient(to right, var(--accent-hover) 1.8px, transparent 1.8px) 0 0, linear-gradient(to left, var(--accent-hover) 0px, transparent 0px) 100% 0, linear-gradient(to bottom, var(--accent-hover) 1.8px, transparent 1.8px) 0 0, linear-gradient(to bottom, var(--accent-hover) 0px, transparent 0px) 100% 0;
+
+}
