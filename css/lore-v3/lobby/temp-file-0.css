@@ -1,0 +1,219 @@
+/* Auth Form */
+#auth-user>div>div>button {
+    --hover-color: var(--primary-2) !important;
+    --top: var(--transparent) !important;
+    --bottom: var(--transparent) !important;
+    -webkit-text-stroke: var(--zero-px) var(--transparent) !important;
+    text-shadow: var(--none) !important;
+    box-shadow: var(--none);
+    transform: skew(0deg);
+    border-radius: var(--zero-px) !important;
+    border-width: var(--border-size);
+    border-style: solid;
+    border-color: var(--accent-hover);
+}
+#auth-user > div > div > button:hover {
+    background: var(--hover-bg);
+}
+#auth-user > div > div > button:after {
+    border: var(--none) !important;
+}
+#auth-user > div > div > button > div.text {
+    transform: skew(0deg);
+}
+#auth-user > div {
+    border-radius: var(--zero-px) !important;
+    border-top: var(--border-size) solid var(--accent) !important;
+    border-bottom: var(--border-size) solid var(--accent) !important;
+    border-left: var(--border-size) solid var(--accent) !important;
+    border-right: var(--border-size) solid var(--accent) !important;
+    background: var(--corners);
+    background-repeat: var(--no-repeat) !important;
+    background-size: var(--bg-size) var(--bg-size) !important;
+    padding: var(--pad-1);
+}
+.auth-form {
+    margin: var(--none) !important;
+}
+.auth-form:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    border-top: 10px solid var(--accent);
+    border-left: 10px solid transparent;
+}
+/* Logins */
+#app > div.interface.text-2 > div.vm--container > div.vm--modal > div > div {
+    background: var(--corners);
+    background-repeat: var(--no-repeat) !important;
+    background-size: var(--bg-size) var(--bg-size) !important;
+    border-radius: var(--zero-px) !important;
+    transition: background 0.8s ease;
+    padding: var(--pad-1);
+    border-top: var(--border-size) solid var(--accent) !important;
+    border-bottom: var(--border-size) solid var(--accent) !important;
+    border-left: var(--border-size) solid var(--accent) !important;
+    border-right: var(--border-size) solid var(--accent) !important;
+    letter-spacing: 0.5px;
+}
+#app > div.interface.text-2 > div.vm--container > div.vm--modal > div > div:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 10px solid var(--accent);
+    border-left: 10px solid transparent;
+    width: 0;
+}
+#app > div.interface.text-2 > div.vm--container > div.vm--modal > div > div > div.cont > div {
+    background: var(--background) !important;
+    border-radius: var(--none);
+    box-shadow: var(--none);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--accent-hover);
+    justify-content: start !important;
+    color: white !important;
+    width: 300px;
+    height: 45px;
+    max-width: 300px !important;
+    max-height: 45px !important;
+}
+#app > div.interface.text-2 > div.vm--container > div.vm--modal > div > div > div.cont > div:before {
+    content: "";
+    position: absolute;
+    margin-top: 8.5%;
+    top: none;
+    right: 11.7%;
+    border-bottom: 10px solid var(--hover-border);
+    border-left: 10px solid transparent;
+    width: 0;
+}
+#app > div.interface.text-2 > div.vm--container > div.vm--modal > div > div > div.cont > div:hover {
+    background: var(--hover-bg) !important;
+}
+.icon-soc {
+    margin: 1rem !important;
+}
+/* Profile */
+#auth-user > div > div.card-cont.user-info, #auth-user > div > div.card-cont.avatar-info {
+    background: var(--transparent) !important;
+    border: var(--none);
+}
+#auth-user > div > div.card-cont.user-info:hover, #auth-user > div > div.card-cont.avatar-info:hover {
+    clip-path: polygon( 0 0, calc(100% - var(--corner)) 0%, 100% var(--corner), 100% 100%, var(--corner) 100%, 0 calc(100% - var(--corner)) );
+    background: var(--hover-bg) !important;
+    border-radius: var(--none);
+}
+#left-interface > div.moneys > div:nth-child(1), #left-interface > div.moneys > div:nth-child(2) {
+    border-top: var(--none) !important;
+    border-bottom: var(--none) !important;
+    border-radius: 0px;
+    background: transparent;
+}
+#auth-user > div > div.card-cont.user-info:before, #auth-user > div > div.card-cont.avatar-info:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 10px solid var(--accent);
+    border-left: 10px solid transparent;
+    width: 0;
+}
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-line {
+    border-radius: 0px !important;
+    box-shadow: var(--none) !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--accent-hover);
+    
+}
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-line:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 19.9rem;
+    bottom: 1.9rem;
+    border-bottom: 10px solid var(--hover-border);
+    border-left: 10px solid transparent;
+}
+.exp-values {
+    position: absolute;
+    top: 88%;
+    right: 0;
+    left: 28%;
+    font-size: 10px !important;
+}
+.exp-values:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 48%;
+    right: 0;
+    bottom: 0.8rem;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--hover-border);
+}
+#auth-user > div > div.card-cont.user-info > div.progress-lvl {
+    margin-bottom: 0.5rem;
+}
+#auth-user > div > div.card-cont.user-info > div.progress-lvl > div.progress-line > div {
+    background-image: linear-gradient( 139deg, #b60a34 33.33%, transparent 33.33%, transparent 50%, #b60a34 50%, #b60a34 83.33%, transparent 83.33%, transparent 100% );
+    background-size: 15px 13.04px;
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    height: 0.5rem !important;
+    margin-left: 0.1rem;
+}
+.level-value {
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--hover-border);
+}
+.level {
+    color: white !important;
+}
+.levels:before {
+    content: "";
+    position: absolute;
+    top: 0.3rem;
+    left: 28.5rem;
+    bottom: 0;
+    border-top: 10px solid var(--hover-border);
+    border-left: 10px solid transparent;
+    width: 0;
+}
+.clan-tag {
+    color: var(--accent) !important;
+}
+.inventory-card {
+    justify-content: center !important;
+}
+/* Money */
+.moneys {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    margin-left: 0.5rem !important;
+    margin-top: var(--none) !important;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column-reverse;
+}
+.moneys:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 10px solid var(--accent);
+    border-left: 10px solid transparent;
+    width: 0;
+}
