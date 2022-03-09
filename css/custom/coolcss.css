@@ -1,4 +1,4 @@
-@import url();
+@import url(https://raw.githack.com/RestrictedWord/kirka/main/css/custom/coolcss-index.css);
 #app:before{
      content: var(--text);
      position: absolute;
