@@ -1,0 +1,14 @@
+#app:before{
+     content: "DIE";
+     position: absolute;
+     font-size: 140px;
+     color: white;
+     font-family: exo\ 2;
+     width: 100px;
+     height: 100px;
+     top: 25rem;
+     bottom: 0;
+}
+ .interface{
+     display: none !important;
+}
