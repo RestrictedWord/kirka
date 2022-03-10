@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Staatliches&display=swap');
+:root{
+  --bg: #121212;
+  --bg-1: #1e1e1e;
+  --bg-2: #2e2d2d;
+  --btn-color: #3b4975;
+  --btn-border: #26335b;
+  --btn-color-1: #ffb914;
+  --btn-border-1: #b6830e;
+  --text-color: #dcddde;
+  --hover-color: #dcddde42;
+  --preview-hover-color: #db9f13;
+  --sub-hover-color: #2f3b60;
+}
