@@ -1,0 +1,51 @@
+body{
+  background-color: var(--bg);
+}
+* {
+    color: var(--text-color);
+    font-family: 'Exo 2', sans-serif !important;
+}
+.title:before{
+  content: "";
+  position: absolute;
+  background: url(https://kirka.io/assets/img/logo-winter.ba294677.svg) no-repeat;
+  width: 250px;
+  height: 125px;
+  left: 0;
+  top: 0;
+    
+}
+input:not([type="image" i]){
+  background-color: var(--bg-1);
+  border: none
+}
+#name, #level, #xpbar, #avatar{
+  width: 25px;
+}
+#name:hover, #level:hover, #xpbar:hover, #avatar:hover{
+  background-color: var(--hover-color);
+}
+#image{
+  padding: .2rem;
+}
+.options{
+  grid-gap: .5rem;
+  width: 43.8rem
+}
+.submit,.load-preview{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.submit{
+  background-color: var(--btn-color);
+  border-bottom: solid 3px var(--btn-border)!important;
+}
+.load-preview{
+  background-color: var(--btn-color-1);
+  border-bottom: solid 3px var(--btn-border-1)!important;
+}
+.load-preview:hover{
+  background-color: var(--preview-hover-color);
+}
+.submit:hover{
+  background-color: var(--sub-hover-color);
+}
