@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "DIN Next LT W01";
+  src: url("//db.onlinewebfonts.com/t/25c8d3f21fac75e401fe67e5c3878ae4.eot");
+  src: url("//db.onlinewebfonts.com/t/25c8d3f21fac75e401fe67e5c3878ae4.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/25c8d3f21fac75e401fe67e5c3878ae4.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/25c8d3f21fac75e401fe67e5c3878ae4.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/25c8d3f21fac75e401fe67e5c3878ae4.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/25c8d3f21fac75e401fe67e5c3878ae4.svg#DIN Next LT W01")
+      format("svg");
+}
+
+* {
+  font-family: "DIN Next LT W01" !important;
+}
