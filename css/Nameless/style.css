@@ -1,0 +1,104 @@
+@media all and (display-mode: fullscreen) {
+  :root {
+    --accent: #c0c4ca;
+    --bg: #0000002e;
+    --txt-clr-yellow: #ffe030;
+    --txt-clr-teal: #14d2e1;
+    --ft-sz: 1rem;
+    --mar-r-8x: 8px;
+    --mar-l-25x: 25px;
+    --mar-t-5x: 5px;
+    --size-45x: 45px;
+    --zero: 0;
+    --logo: url(https://cdn.discordapp.com/attachments/919511402853580860/954073876776767508/kirkalogo.png);
+  }
+  img[src$="/assets/img/logo-winter.ba294677.svg"] {
+    content: var(--logo);
+    position: absolute;
+    left: var(--zero);
+    margin-left: var(--mar-l-25x);
+    margin-top: var(--mar-t-5x);
+    width: var(--size-45x);
+    height: var(--size-45x);
+  }
+  #left-interface,
+  #auth-user {
+    position: absolute;
+    bottom: calc(100% - 400px);
+    right: var(--zero);
+  }
+  #right-interface > div.live-streams,
+  .soc-group,
+  .bg-radial,
+  #left-interface > div.moneys > div:nth-child(1) > svg,
+  #left-interface > div.moneys > div:nth-child(2) > svg,
+  .icon {
+    display: none !important;
+  }
+  .left-icons,
+  .left-icons>div {
+    display: flex !important;
+    flex-direction: row !important;
+    top: 0 !important;
+    left: 15% !important;
+    margin-top: 3px;
+  }
+  .icon-btn{
+      margin: var(--zero) !important;
+      background: transparent !important;
+      border: none !important;
+  }
+  .moneys {
+    flex-direction: column;
+    margin-top: 14px !important;
+  }
+  .money {
+    font-size: var(--ft-sz) !important;
+    height: auto !important;
+    justify-content: flex-start !important;
+  }
+  #left-interface > div.moneys > div:nth-child(1):before {
+    content: "COINS:";
+    margin-right: var(--mar-r-8x);
+    color: #ffe030;
+  }
+  #left-interface > div.moneys > div:nth-child(2):before {
+    content: "GEMS:";
+    margin-right: var(--mar-r-8x);
+    color: #14d2e1;
+  }
+  #right-interface > div.settings-and-socicons > div.card-cont.settings.card-1 {
+    margin-top: 12px;
+  }
+  #right-interface > div.settings-and-socicons > div.card-cont.settings.card-1,
+  #left-interface > div.moneys > div:nth-child(1),
+  #left-interface > div.moneys > div:nth-child(2) {
+    background: transparent;
+    border: none;
+  }
+  #auth-user > div {
+    flex-direction: row-reverse;
+  }
+  #auth-user > div > div.card-cont.user-info > div.progress-label {
+    position: absolute;
+    margin-right: 50%;
+  }
+  #left-interface > div.moneys {
+    position: absolute;
+    right: var(--zero);
+    margin-right: 5%;
+  }
+  .pattern-bg {
+    background: url("") !important;
+    opacity: 1 !important;
+  }
+  .pattern-bg:before {
+    content: "";
+    position: absolute;
+    background: var(--bg);
+    border-bottom: 1px solid var(--accent);
+    width: 100%;
+    height: calc(100% - 1010px);
+    left: var(--zero);
+  }
+}
